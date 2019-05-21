@@ -16,7 +16,6 @@ def removeDuplicates(nums):
         if nums[-1] == true_last:
             break
         last = nums.pop()
-    print(nums)    
     return len(nums)
 
 if __name__ == '__main__':
