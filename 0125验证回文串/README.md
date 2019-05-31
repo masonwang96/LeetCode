@@ -12,4 +12,10 @@
     输入: "race a car"
     输出: false
 
-  
+### solution 1：
+先转换为小写，再去除非字母元素。
+
+最后遍历一次(0==>len/2)：首位不断比较是否相等。
+
+### solution 2：
+solution 1的简洁实现。
