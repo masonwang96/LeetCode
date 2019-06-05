@@ -9,7 +9,7 @@ class Solution(object):
         # s = ''.join(s)
         # return s == s[::-1]
 
-        s = ''.join(filter(str.isalnum, s)).lower()
+        s = ''.join(filter(str.isalnum,s)).lower()
         return s == s[::-1]
 
 
