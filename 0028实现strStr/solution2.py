@@ -15,6 +15,7 @@ class Solution(object):
                 i += 1
                 j += 1
             while j < (len(needle)):
+                pass
 
 
 
